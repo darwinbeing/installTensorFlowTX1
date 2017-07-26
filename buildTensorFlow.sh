@@ -11,6 +11,6 @@ export CUDNN_INSTALL_PATH=/usr/lib/aarch64-linux-gnu/
 export TF_CUDA_COMPUTE_CAPABILITIES=5.3
 
 # Build Tensorflow
-cd $HOME/tensorflow
+cd $TF_BUILD_DIR/tensorflow
 bazel build -c opt --local_resources 3072,4.0,1.0 --verbose_failures --config=cuda //tensorflow/tools/pip_package:build_pip_package
 
