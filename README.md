@@ -26,6 +26,10 @@ $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
 $ TF_BUILD_DIR=/data/tensorflow ./install.sh
 
 ```
+### Prebuilt image
+
+* [tensorflow-1.2.1-cp27-cp27mu-linux_aarch64.whl](https://github.com/darwinbeing/installTensorFlowTX1/releases/download/v1.0/tensorflow-1.2.1-cp27-cp27mu-linux_aarch64.whl)
+* [tensorflow-1.2.1-cp35-cp35m-linux_aarch64.whl](https://github.com/darwinbeing/installTensorFlowTX1/releases/download/v1.0/tensorflow-1.2.1-cp35-cp35m-linux_aarch64.whl)
 
 
 #### Reference
