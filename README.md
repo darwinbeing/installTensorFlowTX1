@@ -10,7 +10,7 @@ Jetson TX1 is flashed with JetPack 3.0 which installs:
 
 #### install.sh
 
-Auto run all script and install tensorflow 1.2.0. Uses python 2.7, python3.5.
+Auto run all script and install tensorflow 1.2.1. Uses python 2.7, python3.5.
 
 ```
 # compile tensorflow for python2
@@ -34,7 +34,7 @@ $ TF_BUILD_DIR=/data/tensorflow ./install.sh
 
 #### Reference
 <ul>
-<li>https://github.com/samfk6/installTensorflow-TX1.git</li>
+<li>https://github.com/samfk6/installTensorflow-TX1</li>
 <li>https://github.com/jetsonhacks</li>
 <li>https://github.com/ljanyst</li>
 </ul>
