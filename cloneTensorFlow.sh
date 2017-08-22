@@ -9,7 +9,7 @@ cd $TF_BUILD_DIR
 git clone https://github.com/tensorflow/tensorflow.git
 cd tensorflow
 
-git checkout v1.2.1
+git checkout v1.3.0
 
 patch -p1 < $INSTALL_DIR/patches/tensorflow.patch
 patch -p1 < $INSTALL_DIR/patches/cuda_blas.patch

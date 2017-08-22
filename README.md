@@ -8,22 +8,12 @@ Jetson TX1 is flashed with JetPack 3.0 which installs:
 * cuDNN 5.1.5
 
 
-#### install.sh
+#### runme.sh
 
 Auto run all script and install tensorflow 1.2.1. Uses python 2.7, python3.5.
 
 ```
-# compile tensorflow for python2
-$ TF_BUILD_DIR=/data/tensorflow ./install.sh
-
-# select python3
-$ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 20
-# modify setTensorFlowEV.sh
-# PYTHON_BIN_PATH=/usr/bin/python3
-# PYTHON_LIB_PATH=/usr/lib/python3/dist-packages
-
-# compile tensoflow for python3
-$ TF_BUILD_DIR=/data/tensorflow ./install.sh
+# ./runme.sh
 
 ```
 ### Prebuilt image

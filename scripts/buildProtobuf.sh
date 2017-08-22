@@ -7,7 +7,7 @@
 cd $TF_BUILD_DIR
 git clone https://github.com/google/protobuf.git
 cd protobuf
-git checkout v3.3.2
+git checkout v3.4.0
 ./autogen.sh
 LDFLAGS=-static ./configure --prefix=$(pwd)/../
 sed -i -e 's/LDFLAGS = -static/LDFLAGS = -all-static/' ./src/Makefile

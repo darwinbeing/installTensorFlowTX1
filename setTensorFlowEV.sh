@@ -11,10 +11,9 @@ sudo cp /usr/include/cudnn.h /usr/lib/aarch64-linux-gnu/include/cudnn.h
 # Setup the environment variables for configuration
 # PYTHON Path is the default
 default_python_bin_path=$(which python)
-PYTHON_BIN_PATH=$default_python_bin_path
+# PYTHON_BIN_PATH=$default_python_bin_path
 # PYTHON LIB Path
-PYTHON_LIB_PATH=/usr/lib/python2.7/dist-packages
-# PYTHON_BIN_PATH=/usr/bin/python3
+# PYTHON_LIB_PATH=/usr/lib/python2.7/dist-packages
 # PYTHON_LIB_PATH=/usr/lib/python3/dist-packages
 # No Google Cloud Platform support
 TF_NEED_GCP=0
@@ -44,5 +43,5 @@ TF_ENABLE_XLA=0
 TF_NEED_MKL=0
 TF_NEED_VERBS=0
 TF_CUDA_CLANG=0
-
+TF_NEED_MPI=0
 source ./configure
